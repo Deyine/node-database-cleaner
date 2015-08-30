@@ -1,9 +1,9 @@
 module.exports = {
   mysql: {
-    skipTables: ['schema_migrations']
+    skipTables: ['migrations']
   },
 
   postgresql: {
-    skipTables: ['schema_migrations']
+    skipTables: ['migrations']
   }
 }
